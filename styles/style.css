@@ -240,6 +240,19 @@ main>section {
     filter: grayscale(100%);
 }
 
+/* footer styles start */
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin-top: 130px;
+
+}
 
 
 
@@ -280,6 +293,10 @@ main>section {
         margin-left: 10px;
 
     }
+
+    .footer {
+        margin-top: 50px;
+    }
 }
 
 /* responsive medium devices  */
@@ -307,5 +324,9 @@ main>section {
         margin-top: 20px;
         margin-left: 10px;
 
+    }
+
+    .footer {
+        margin-top: 50px;
     }
 }
